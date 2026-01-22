@@ -37,11 +37,27 @@
 
     .product {
         background: #8a2be2;
-        margin: 20px;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  margin: 20px;
+  padding: 15px;
+  width: 220px;        /* fixed width */
+  height: 220px;       /* fixed height = square */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
     }
+	
+ img 
+ {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  display: block;
+  margin: 10px auto;}
+
 
     .product a {
         color: yellow;
@@ -70,7 +86,7 @@
 
 <h2 style="text-align:center; margin-top:20px;">Home Decor Products</h2>
 
-<div class="product">
+<nav><div class="product">
     <h3>Product 1</h3>
    <p>fashion</p>
     <a href="YOUR-AMAZON-AFFILIATE-LINK">Buy on Amazon</a>
@@ -81,6 +97,49 @@
     <p>Stylish accesseories fashion </p>
     <a href="YOUR-AMAZON-AFFILIATE-LINK">Buy on Amazon</a>
 </div>
+
+<div class="product">
+    <h3>Product 2</h3>
+    <p>Stylish accesseories fashion </p>
+    <a href="YOUR-AMAZON-AFFILIATE-LINK">Buy on Amazon</a>
+</div></nav>
+
+<nav><div class="product">
+    <h3>Product 2</h3>
+    <p>Stylish accesseories fashion </p>
+    <a href="YOUR-AMAZON-AFFILIATE-LINK">Buy on Amazon</a>
+</div>
+
+<div class="product">
+    <h3>Product 2</h3>
+    <p>Stylish accesseories fashion </p>
+    <a href="YOUR-AMAZON-AFFILIATE-LINK">Buy on Amazon</a>
+</div>
+
+<div class="product">
+    <h3>Product 2</h3>
+    <p>Stylish accesseories fashion </p>
+    <a href="YOUR-AMAZON-AFFILIATE-LINK">Buy on Amazon</a>
+</div></nav>
+
+<nav><div class="product">
+    <h3>Product 2</h3>
+    <p>Stylish accesseories fashion </p>
+    <a href="YOUR-AMAZON-AFFILIATE-LINK">Buy on Amazon</a>
+</div>
+
+<div class="product">
+    <h3>Product 2</h3>
+    <p>Stylish accesseories fashion </p>
+    <a href="YOUR-AMAZON-AFFILIATE-LINK">Buy on Amazon</a>
+</div>
+
+<div class="product">
+    <h3>Product 2</h3>
+    <p>Stylish accesseories fashion </p>
+    <a href="YOUR-AMAZON-AFFILIATE-LINK">Buy on Amazon</a>
+</div></nav>
+
 
 <footer>
     © 2026 Barakah Bloom. All Rights Reserved.
